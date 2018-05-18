@@ -1,4 +1,4 @@
-стр. 24
+стр. 26 Выведение новых типов
 
 Вопросы
 - its JVM and JavaScript runtimes ???
