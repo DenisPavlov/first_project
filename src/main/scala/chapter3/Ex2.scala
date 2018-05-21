@@ -1,3 +1,5 @@
+package chapter3
+
 /*
  * Copyright (C) 2007-2016 Artima, Inc. All rights reserved.
  *
@@ -22,20 +24,16 @@
  */
 
 
-object Ex1 {
+object Ex2 {
   def main(args: Array[String]) {
-    val big = new java.math.BigInteger("12345")
-    println("big [" + (big) + "]")
-
-    val greetStrings = new Array[String](3)
-
+    val greetStrings: Array[String] = new Array[String](3)
     greetStrings(0) = "Hello"
     greetStrings(1) = ", "
     greetStrings(2) = "world!\n"
-
     for (i <- 0 to 2)
       print(greetStrings(i))
 
-
+   println(1 + 2)
   }
 }
+
