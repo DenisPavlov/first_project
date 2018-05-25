@@ -46,6 +46,7 @@
 - ключевое слово lazy ?
 - null - это тоже тип ? (потому что <code>def max2(x: Int, y: Int) = null</code> выведет <code>max2: (x: Int, y: Int)Null</code>)
 - Имя, список параметров и возвращаемый тип, если он указан, образуют сигнатуру метода.
+- в Scala вы можете смешивать trait-ы во время создания экземпляра ?
 
 Первые шаги
 - https://rsdn.org/article/scala/scala.xml
