@@ -1,2 +1,2 @@
 // Скажем hello первому аргументу
-println("Hello, " + args(0) + "!")
+//println("Hello, " + args(0) + "!")
