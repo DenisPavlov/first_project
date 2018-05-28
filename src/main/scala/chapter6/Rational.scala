@@ -20,6 +20,16 @@ class Rational(n: Int, d: Int) {
   }
 
   /*
+  Перегруженный метод сложения
+   */
+  def + (i: Int): Rational = new Rational(number + i * denom, denom)
+
+  /*
+  Перегруженный метод вычетания
+   */
+  def - (i: Int): Rational = new Rational(number - i * denom, denom)
+
+  /*
   Умножение двух чисел
    */
   def * (rational: Rational): Rational = {
