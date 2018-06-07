@@ -6,3 +6,7 @@ class Frog extends Animal with Philosophical {
     println("It ain't easy being " + toString + "!")
   }
 }
+
+trait Doubling extends IntQueue {
+  abstract override def put(x: Int) = { super.put(2 * x) }
+}
